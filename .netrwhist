@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/kurt/availabiliy/static_files'
+let g:netrw_dirhist_2='/home/kurt/source/cml-zabbix/plugin/log_monitor/harvester'
+let g:netrw_dirhist_3='/home/kurt/ci2/ci2/ci2/config'
