@@ -21,11 +21,6 @@ syntax on                           " syntax highlighing
 filetype on                          " try to detect filetypes
 filetype plugin indent on    " enable loading indent file for filetype
 
-"let g:pep8_map='<leader>8'
-
-"let g:pyflakes_use_quickfix = 0
-"
-
 
 map <leader>t :Tlist<CR>
 let Tlist_Use_LEFT_Window=1
@@ -55,3 +50,8 @@ map <leader>n :NERDTreeToggle<CR>
 "let ropevim_extended_complete = 1
 "let g:ropevim_autoimport_modules = ["os.*","traceback","django.*", "xml.etree", "sys"]
 "imap <C-M>=RopeCodeAssistInsertMode()<CR>
+
+
+
+let g:pep8_map='<leader>8'
+let g:pyflakes_use_quickfix = 0
