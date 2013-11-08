@@ -41,7 +41,7 @@ let g:jedi#completions_command = "<C-N>"
 :set completeopt=longest,menuone
 
 
-map <leader>n :NERDTreeToggle<CR>
+map <leader>e :NERDTreeToggle<CR>
 
 "" disable rope
 "map <leader>j :RopeGotoDefinition<CR>
