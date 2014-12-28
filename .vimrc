@@ -55,3 +55,10 @@ map <leader>e :NERDTreeToggle<CR>
 
 let g:pep8_map='<leader>8'
 let g:pyflakes_use_quickfix = 0
+
+set shiftwidth=4
+set softtabstop=4
+set ts=4
+set expandtab
+set listchars=tab:>-,trail:-
+set autoindent
