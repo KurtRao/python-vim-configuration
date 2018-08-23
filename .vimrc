@@ -36,9 +36,11 @@ let g:jedi#auto_vim_configuration = 0
 let g:jedi#use_tabs_not_buffers = 0
 let g:jedi#goto_assignments_command = "<leader>g"
 let g:jedi#goto_definitions_command = "<leader>j"
-"let g:jedi#popup_on_dot = 0
+let g:jedi#popup_on_dot = 0
 let g:jedi#completions_command = "<C-N>"
 :set completeopt=longest,menuone
+let g:jedi#smart_auto_mappings = 0
+set backspace=indent,eol,start
 
 
 map <leader>e :NERDTreeToggle<CR>
